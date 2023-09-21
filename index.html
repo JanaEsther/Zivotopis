@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jana Obendraufová</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--Sekce Hlavička stránky-->
-    <header>
+
+    <header class="Hlavička">
         <h1>Jana Obendraufová</h1>
     </header>
 
+    <img class="foto-jany" src="Obrázky/Fotografie.png" alt="foto Jany">
+
     <!--menu-->
-    <ul class="menu">
+    <ul class="menu" id="menu">
         <li><a href="#vzdelani">Vzdělání</a></li>
         <li><a href="#praxe">Praxe</a></li>
         <li><a href="#dovednosti">Dovednosti</a></li>
@@ -21,7 +26,9 @@
     </ul>
 
 
-    <img class="foto" src="Obrázky/Fotografie.png" alt="foto Jany">
+   
+
+    <section class="vzdelani" id="vzdelani">
 
 
    <!--Sekce Vzdělání--> 
@@ -29,55 +36,63 @@
  <h3>Vzdělání</h3>  
 
  
-    <ul>
+    <ul class="seznam_1">
         <li>10/1993 - 6/1999</li> 
         2. lékařská fakulta UK Praha - Všeobecné lékařství<br>
+        Obor:Všeobecný lékař<br>
        
         <li>9/1987 6/1991</li> 
-        Střední odborná škola a Střední zdravotnická škola Benešov
-        příspěvková organizace, Černoleská 1997 - Vseobecná zdravotní sestra<br>
-        SŠ s maturitou
+        Střední odborná škola a Střední zdravotnická škola Benešov<br>
+        Obor:Vseobecná zdravotní sestra<br>
+       
     
     </ul>
     
+</section>
 
+<section class="praxe"  id="praxe"> 
            
-            <!--Sekce Praxe-->
+<!--Sekce Praxe-->
 
-            <h3>Praxe</h3>
-            <p>
-   			 1/2022 dosud - H2O s.r.o.<br>
-                Jednatelka, účetní<br>
-                Vedení účetnictví na DPP.<br>
+<h3>Praxe</h3>
+<p>
+   			 
+    <ul class="seznam_1">
+             
+        <li> leden 2022 - dosud</li> 
+        H2O s.r.o. - jednatelka, účetní <br>
+                
+        <li>leden 2022 -  dosud</li>
+        NETTO Electronics s.r.o. - obchodní asistentka<br>
+                
+        Vystavování nabídek, zadávání zakázek do systému, vyřizování<br>
+        objednávek z e-shopu. Aktualizace webových stránek. Příprava a<br>
+        realizace marketingových kampaní - Ecomail, Canva. Kontaktovaní<br>
+        zákazníků po kampaních. Fakturace, příprava zásilek k odeslání<br>
+        spedicí. Zastupování na recepci - přepojování hovorů, uvádění<br>
+        návštěv. Kontrola plateb, příprava platebních příkazů.<br>
     
-             1/2022 dosud NETTO Electronics s.r.o.<br>
-                Obchodní asistentka
-                Vystavování nabídek, zadávání zakázek do systému, vyřizování
-                objednávek z e-shopu. Aktualizace webových stránek. Příprava a
-                realizace marketingových kampaní - Ecomail, Canva. Kontaktovaní
-                zákazníků po kampaních. Fakturace, příprava zásilek k odeslání
-                spedicí. Zastupování na recepci - přepojování hovorů, uvádění
-                návštěv. Kontrola plateb, příprava platebních příkazů.
+        <li>červen 2021 - prosinec 2021</li> 
+        Korálky.cz s.r.o.- pomocná skladnice - pickerka na DPP<br>
+        Vychystávání zboží podle objednávek. Příjem zboží na sklad.<br>
+        Etiketování a doplňování zboží.<br>
     
-                6/2021 12/2021 Korálky.cz s.r.o.
-                Pomocná skladnice - pickerka na DPP<br>
-                Vychystávání zboží podle objednávek. Příjem zboží na sklad.
-                Etiketování a doplňování zboží.
+        <li>březen 2002 - prosinec 2021</li> H2O s.r.o.
+        Jednatelka, obchodní referentka, účetní
+        Vedení účetnictví, kompletní zpracování obchodních případů, zpráva
+        webové prezentace, komunikace s dodavateli a zákazníky,
+        komunikace s úřady.
     
-                3/2002 12/2021 H2O s.r.o.
-                Jednatelka, obchodní referentka, účetní
-                Vedení účetnictví, kompletní zpracování obchodních případů, zpráva
-                webové prezentace, komunikace s dodavateli a zákazníky,
-                komunikace s úřady.
-    
-                Kurzy  leden 2005 Podvojné účetnictví pro podnikatele
-                Rekvalifikační kurs v rozsahu 140 vyučovacích hodin.
+        
+
+            </ul>
             </p>
 
-
+    </section>
+    <section class="dovednosti"  id="dovednosti"> 
         <!--Sekce DovednostiJ-->
 
-        <h3>Dovednosti</h3>
+    <h3>Dovednosti</h3>
     
         <h4> Jazykové znalosti </h4>  
     <p>
@@ -87,31 +102,40 @@
            
             <tr>
                 <th>Jazyk</th>
-                <th>Úroveň</th>
+                <th class="uroven">Úroveň</th>
             </tr>
             <tr>
                 <td>Angličtina</td> 
-                <td>Pokročilá</td>
+                <td class="uroven">Pokročilá</td>
             </tr>
                 <td>Ruština</td> 
-                <td>Mírně pokročilá</td>  
+                <td class="uroven">Mírně pokročilá</td>  
             
         </table> 
                 
     <h4>Technické znalosti</h4>		 
         
-        MS Windows XP / Vista / 7 MS Windows 8 / 10
-                Textový editor (MS Word), Tabulkový kalkulátor (MS Excel), Internet /
-                e-mail, MS Outlook
-    	Účetní program Ekonom
+        MS Windows XP / Vista / 7 MS Windows 8 / 10<br>
+        Textový editor (MS Word), Tabulkový kalkulátor (MS Excel), Internet <br>
+        MS Outlook<br>
+    	Účetní program Ekonom<br>
+
+    <h4>Kurzy</h4>
+    Leden 2005 -  Podvojné účetnictví pro podnikatele<br>
+                Rekvalifikační kurs v rozsahu 140 vyučovacích hodin.
 
             </p>
-       
+        </section>
+        
+<section class="zajmy"  id="zajmy">
     
 <h3>Zájmy</h3>  		
     <p>Jóga,pilates, četba, klasická hudba, cestování.
     </p>
 
+</section>
+
+<section class="kontakt"  id="kontakt">
 <!--Sekce Kontakt-->
 <h3>Kontakt</h3>
  
@@ -129,14 +153,14 @@ Na Lysinách 460/28<br>
     
     <img src="Ikony/facebook.svg" alt="facebook">  <img src="Ikony/linkedin.svg" alt="linkedin"> 
     
-                    
+</section>                 
     
 
 
     
     <!--Patička stránky-->
 
-    <footer class="paticka">
+    <footer class="paticka" id="paticka">
     
     <p>© 2023, Jana Obendraufová</p>
 </footer>
