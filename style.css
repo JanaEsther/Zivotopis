@@ -1,6 +1,6 @@
 body {
     color:#2F4F4F;
-    background-color:#FFF5EE;
+    background-color:ghostwhite;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -41,18 +41,18 @@ h1 {
 
 h2
 {
-color:darkmagenta;
-font-size: 25px;
-font-family: Arial, Helvetica, sans-serif;
-padding: 10px 0;
+    color:darkmagenta;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
 
 } 
 
 .foto-jany{ 
-    width: 150px;
+    width: 200px;
     border-radius: 50%;
     float:left;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 30px;
     color:darkmagenta;
     border:solid 2px darkmagenta;
@@ -87,17 +87,17 @@ th
 
 }
 .uroven {
-    text-align:right;
+    text-align:left;
     padding-left: 50px;
 }
 
 section {
-    padding: 50px 15%;
+    padding: 20px 15%;
     overflow: auto;
 }
 
 .hlavicka {
-    padding: 150px 30px;
+    padding: 150px 50px;
    background-repeat: no-repeat;
    background-position:center ;
    background-size: cover;
@@ -108,12 +108,14 @@ section {
     margin:0;
     padding:0;
     text-align:center;
-    background-color:#651f9c; 
+    background-color:#333134; 
     
 }
 
 .menu li{
   display:   inline-block;
+
+
 }
 
 menu a {
@@ -129,6 +131,19 @@ menu a {
 
 }
 
+li{
+    font-weight: bold;
+    padding-bottom: 10px;
+    list-style-type: disc;
+}
+
+.vzdelani{
+    padding-top: 250px;
+    padding-left: 50px;
+
+
+
+}
 
 
 
