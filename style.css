@@ -1,7 +1,7 @@
 body {
     color:#2F4F4F;
     background-color:ghostwhite;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Raleway', sans-serif;
     font-size: 20px;
     line-height: 1.5;
     margin: 0;
@@ -10,8 +10,9 @@ body {
 h1{
 
     color:#2F4F4F;
-    font-size: 70px;
-    font-family: 'Montserrat', sans-serif; 
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;;
+    padding-top: 100px; 
      
 }
 
@@ -32,40 +33,47 @@ h4 {
 }
 
 h1 {
-    font-size: 70px;
-    text-align: center;
-    color:white;
-    margin: 0;
-    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    font-size: 60px;
+    text-align: right;
+    color:#855cd6;
+    margin: 40px 20px;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    padding: 0px 60px 0 20px;
+    
 }
 
 
 
 h2
 {
-    color:darkmagenta;
-    font-size: 38px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px 0;
+    color:#4b0082;
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;;
+    padding: 15px 0;
 
 } 
 
 h3{
-    font-size: 24px;
+    font-size: 35px;
+}
+
+h4{
+
+    font-size: 25px;
 }
 
 .foto-jany{ 
     width: 200px;
     border-radius: 50%;
     float:left;
-    margin: 0 30px 30px 50px;
-    color:darkmagenta;
-    border:solid 2px darkmagenta;
+    margin: 0 30px 120px 90px;
+    border:solid 2px #855cd6;
+    
   
 }
 
 .paticka {
-    background-color: #26262c;
+    background-color:#855cd6;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -75,10 +83,13 @@ h3{
 
 table {
     border-spacing: 0;
+    margin-top: 20px;
 }
 th,
 td{
-    text-align: left;
+    text-align:left; 
+    border: 0.5px solid snow;
+
     
     
 
@@ -88,63 +99,81 @@ th
 {
     font-size: 20px;
     font-weight:lighter;
-   border-bottom:solid 1px;
-   background-color: #bda1cb;
-   color:snow;
+   border-bottom:solid 1px snow;
+   background-color:#bfb2d9;
+   color:#2b004d;
    font-weight: bold;
-
-
-
 }
+
+td{
+    background-color:#e9e9fb;
+}
+
+.jazyk {
+ text-align:right;
+ padding-left: 50px;
+ 
+
+ 
+}
+
+.kurzy{
+
+    padding-left: 0;
+}
+
 .uroven {
     text-align:left;
-    padding-left: 10px;
+    padding-left: 0;
+    padding-top: 33px;
 }
 
 section {
-    padding: 50px 15%;
+    padding: 39px 17%;
     overflow: auto;
 }
-
 .hlavicka {
-    padding: 100px 50px;
     background-image:url(Obrázky/Background.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
-    padding: 150px 30px;
+    padding:100px 0;
+   
+    
 }
 
 
 
 .menu {
-    margin-top:250px;
-    padding:0;
+    padding: 15px 15px;
     text-align:center;
-    background-color:#aaa4ad; 
+    font-size:35px;
+    font-family: 'Playfair Display', serif;
+    color:snow;
+    background-color:#855cd6; 
+    margin:0;
+   
+   
     
 }
 
 .menu li{
-  display:   inline-block;
+  display: inline-block;
 
 
 
 }
 
-menu a {
-    display: inline-block;
-    border-top: 2px solid #9c8175;
+.menu a {
     color:white;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 20px 80px 27px;
 }
 
 
 .seznam_1{
     list-style-type:none;
-    padding-left: 5px;
-   
+    padding-left: 0;
 
 }
 
@@ -155,12 +184,27 @@ li{
 }
 
 .vzdelani{
-    padding-top: 100px;
-    padding-left:  270px;
+    padding-top: 90px;
+    padding-left:  0;
 }
 .menu a:hover, .menu a:focus, .menu a:active {
-    background-color: #756158; 
+    background-color:#8066b4;
+
 }
+
+.praxe,
+.zajmy{
+    background-color:#e5e0f0;
+}
+
+.vzdelani{
+
+    padding-top: 200px;
+    text-align:left;
+    padding-left: 0;
+}
+
+
 
 
 
