@@ -43,7 +43,6 @@ h1 {
 }
 
 
-
 h2
 {
     color:#4b0082;
@@ -63,12 +62,16 @@ h4{
 }
 
 .foto-jany{ 
-    width: 200px;
+    width: 250px;
     border-radius: 50%;
-    float:left;
-    margin: 0 30px 150px 90px;
+    float:right;
     border:solid 2px #855cd6;
-    vertical-align:text-top;
+    margin: 0 50px 20px 0;
+    overflow: auto;
+    vertical-align: middle;
+    
+    
+    
     
   
 }
@@ -89,7 +92,7 @@ table {
 th,
 td{
     text-align:left; 
-    border: 0.5px solid snow;
+    border: 1px solid snow;
 
         
 
@@ -99,7 +102,7 @@ th
 {
     font-size: 20px;
     font-weight:lighter;
-   border-bottom:solid 1px snow;
+   border-bottom:solid 2px snow;
    background-color:#bfb2d9;
    color:#2b004d;
    font-weight: bold;
@@ -137,7 +140,7 @@ section {
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    padding:110px 0;
+    padding:90px 0;
    
     
    
@@ -148,7 +151,7 @@ section {
 .menu {
     padding: 0;
     text-align:center;
-    font-size:50px;
+    font-size:40px;
     font-family: 'Playfair Display', serif;
     color:snow;
     background-color:#855cd6; 
@@ -172,7 +175,7 @@ section {
     display: inline-block;
     color:white;
     text-decoration: none;
-    padding: 10px 50px 15px 0;
+    padding: 10px 60px 0 0;
 }
 
 
@@ -184,7 +187,7 @@ section {
 
 li{
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     list-style-type:none;
 }
 
