@@ -12,7 +12,7 @@ h1{
     color:#2F4F4F;
     font-size: 60px;
     font-family: 'Playfair Display', serif;;
-    padding-top: 100px; 
+    padding-top: 150px; 
      
 }
 
@@ -34,7 +34,7 @@ h4 {
 
 h1 {
     font-size: 60px;
-    text-align: right;
+    text-align: center;
     color:#855cd6;
     margin: 40px 20px;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
@@ -66,8 +66,9 @@ h4{
     width: 200px;
     border-radius: 50%;
     float:left;
-    margin: 0 30px 100px 90px;
+    margin: 0 30px 150px 90px;
     border:solid 2px #855cd6;
+    vertical-align:text-top;
     
   
 }
@@ -90,8 +91,7 @@ td{
     text-align:left; 
     border: 0.5px solid snow;
 
-    
-    
+        
 
 }
 
@@ -137,21 +137,25 @@ section {
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    padding:100px 0;
+    padding:110px 0;
+   
+    
    
     
 }
 
 
-
 .menu {
-    padding: 15px 15px;
+    padding: 0;
     text-align:center;
     font-size:50px;
     font-family: 'Playfair Display', serif;
     color:snow;
     background-color:#855cd6; 
     margin:0;
+   
+    
+    
    
    
     
@@ -165,9 +169,10 @@ section {
 }
 
 .menu a {
+    display: inline-block;
     color:white;
     text-decoration: none;
-    padding: 20px 50px 27px;
+    padding: 10px 50px 15px 0;
 }
 
 
@@ -180,18 +185,26 @@ section {
 li{
     font-weight: bold;
     padding-bottom: 10px;
-    list-style-type: none;
+    list-style-type:none;
 }
 
-.vzdelani{
-    padding-top: 90px;
-    padding-left:  0;
+
+
+
+
+.omne{
+
+    padding: 39px 17%;
+    overflow: auto;
 }
+    
+
 .menu a:hover, .menu a:focus, .menu a:active {
     background-color:#8066b4;
 
 }
 
+.omne,
 .praxe,
 .zajmy{
     background-color:#e5e0f0;
@@ -199,9 +212,9 @@ li{
 
 .vzdelani{
 
-    padding-top: 200px;
-    text-align:left;
-    padding-left: 0;
+    padding-top: 100px;
+    padding: 39px 17%;
+    overflow: auto;
 }
 
 
