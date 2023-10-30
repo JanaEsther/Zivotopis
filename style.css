@@ -141,10 +141,7 @@ section {
     background-size:cover;
     background-position: center;
     padding:90px 0;
-   
-    
-   
-    
+       
 }
 
 
@@ -157,17 +154,13 @@ section {
     background-color:#855cd6; 
     margin:0;
    
-    
-    
-   
+
    
     
 }
 
 .menu li{
   display: inline-block;
-
-
 
 }
 
@@ -190,8 +183,6 @@ li{
     padding-bottom: 0px;
     list-style-type:none;
 }
-
-
 
 
 
