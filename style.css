@@ -1,26 +1,26 @@
 body {
-    color:#2F4F4F;
-    background-color:ghostwhite;
-    font-family:'Raleway', sans-serif;
+    color: #2F4F4F;
+    background-color: ghostwhite;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 1.5;
     margin: 0;
 }
 
-h1{
+h1 {
 
-    color:#2F4F4F;
-    font-size: 60px;
-    font-family: 'Playfair Display', serif;;
-    padding-top: 150px; 
-     
+    color: #2F4F4F;
+    font-size: 46px;
+    font-family: 'Playfair Display', serif;
+    ;
+    padding-top: 150px;
+
 }
 
 h1,
 h2,
 h3,
-h4
-{
+h4 {
     color: #2b004d;
 }
 
@@ -29,59 +29,59 @@ h2,
 h3,
 h4 {
     font-family: 'Playfair Display', serif;
-    font-style: normal; 
+    font-style: normal;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 46px;
     text-align: center;
-    color:#855cd6;
+    color: #855cd6;
     margin: 40px 20px;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
     padding: 0px 60px 0 20px;
-    
+
 }
 
 
-h2
-{
-    color:#4b0082;
+h2 {
+    color: #4b0082;
     font-size: 48px;
-    font-family: 'Playfair Display', serif;;
+    font-family: 'Playfair Display', serif;
+    ;
     padding: 15px 0;
 
-} 
+}
 
-h3{
+h3 {
     font-size: 35px;
 }
 
-h4{
+h4 {
 
     font-size: 25px;
 }
 
-.foto-jany{ 
+.foto-jany {
     width: 250px;
     border-radius: 50%;
-    float:right;
-    border:solid 2px #855cd6;
+    float: right;
+    border: solid 2px #855cd6;
     margin: 0;
     overflow: auto;
     vertical-align: middle;
-    
-    
-    
-    
-  
+
+
+
+
+
 }
 
 .paticka {
-    background-color:#855cd6;
+    background-color: #855cd6;
     color: white;
     text-align: center;
     padding: 10px 0;
- 
+
 }
 
 
@@ -89,44 +89,44 @@ table {
     border-spacing: 0;
     margin-top: 20px;
 }
+
 th,
-td{
-    text-align:left; 
+td {
+    text-align: left;
     border: 1px solid snow;
 
-        
+
 
 }
 
-th
-{
+th {
     font-size: 20px;
-    font-weight:lighter;
-   border-bottom:solid 2px snow;
-   background-color:#bfb2d9;
-   color:#2b004d;
-   font-weight: bold;
+    font-weight: lighter;
+    border-bottom: solid 2px snow;
+    background-color: #bfb2d9;
+    color: #2b004d;
+    font-weight: bold;
 }
 
-td{
-    background-color:#e9e9fb;
+td {
+    background-color: #e9e9fb;
 }
 
 .jazyk {
- text-align:right;
- padding-left: 50px;
- 
+    text-align: right;
+    padding-left: 50px;
 
- 
+
+
 }
 
-.kurzy{
+.kurzy {
 
     padding-left: 0;
 }
 
 .uroven {
-    text-align:left;
+    text-align: left;
     padding-left: 0;
     padding-top: 33px;
 }
@@ -135,107 +135,87 @@ section {
     padding: 39px 17%;
     overflow: auto;
 }
+
 .hlavicka {
-    background-image:url(Obrázky/Background.png);
+    background-image: url(Obrázky/Background.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    padding:90px 0;
-       
+    padding: 90px 0;
+
 }
 
 
 .menu {
     padding: 0;
-    text-align:center;
-    font-size:40px;
+    text-align: center;
+    font-size: 32px;
     font-family: 'Playfair Display', serif;
-    color:snow;
-    background-color:#855cd6; 
-    margin:0;
-   
+    color: snow;
+    background-color: #855cd6;
+    margin: 0;
 
-   
-    
+
+
+
 }
 
-.menu li{
-  display: inline-block;
+.menu li {
+    display: inline-block;
 
 }
 
 .menu a {
     display: inline-block;
-    color:white;
+    color: white;
     text-decoration: none;
     padding: 10px 60px 0 0;
 }
 
 
-.seznam_1{
-    list-style-type:none;
+.seznam_1 {
+    list-style-type: none;
     padding-left: 0;
 
 }
 
-li{
+li {
     font-weight: bold;
     padding-bottom: 0px;
-    list-style-type:none;
+    list-style-type: none;
 }
 
 
 
-.omne{
+.omne {
 
     padding: 39px 17%;
     overflow: auto;
 }
-    
 
-.menu a:hover, .menu a:focus, .menu a:active {
-    background-color:#8066b4;
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #8066b4;
 
 }
 
-a href:hover, a href:focus, a href:active{
-    background-color:#8066b4;
+a href:hover,
+a href:focus,
+a href:active {
+    background-color: #8066b4;
 }
 
 .omne,
 .praxe,
-.zajmy{
-    background-color:#e5e0f0;
+.zajmy {
+    background-color: #e5e0f0;
 }
 
-.vzdelani{
+.vzdelani {
 
     padding-top: 100px;
     padding: 39px 17%;
     overflow: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
- 
